@@ -1,4 +1,10 @@
+import Navbar from '@/components/shared/Navbar';
+
 const LinkPageLayout = () => {
-  return <div>Link page layout</div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 export default LinkPageLayout;
