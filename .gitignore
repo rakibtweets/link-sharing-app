@@ -1,0 +1,14 @@
+# Client
+client/node_modules
+client/build
+client/.env
+client/.env.local
+client/.next
+client/.next/*
+client/next-env.d.ts
+
+# Server
+server/node_modules
+server/build
+server/dist
+server/src/.env.*
