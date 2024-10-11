@@ -1,9 +1,10 @@
 import Navbar from '@/components/shared/Navbar';
 
-const LinkPageLayout = () => {
+const LinkPageLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
       <Navbar />
+      {children}
     </div>
   );
 };
